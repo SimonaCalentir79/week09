@@ -1,0 +1,14 @@
+﻿ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+ul li ul {
+    display: none;
+    padding-left: 25px;
+}
+
+ul li:hover ul{
+    display: block;
+    color: gray;
+}

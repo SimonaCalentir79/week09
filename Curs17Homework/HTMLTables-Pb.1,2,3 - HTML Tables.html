@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>HTML Tables</title>
+</head>
+<body>
+    <h3>Problem 1.</h3>
+    <table>
+        <thead>
+            <tr class="1">
+                <th colspan="2">
+                    <h1>Fresh Fruits</h1>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="width:250px; height:250px; font-size:20px;">
+                    It has long been known that a diet that includes at least a few servings of fresh fruit every day will
+                    help keep you healthy, fit and trim.
+                </td>
+                <td><img src="imagini/FruitBasket.jpg" alt="Fruit Basket" style="width:250px; height:250px" /></td>
+            </tr>
+        </tbody>
+    </table>
+    <p></p>
+    <table cellpadding="5px" cellspacing="1" border="1" style="border:ridge; text-align:center;">
+        <tr class="1">
+            <td colspan="3">Title goes here</td>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr class="2">
+            <td rowspan="3">C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+            <td>G</td>
+        </tr>
+        <tr class="3">
+            <td>H</td>
+            <td colspan="2">I</td>
+            <td rowspan="2">J</td>
+        </tr>
+        <tr class="4">
+            <td>K</td>
+            <td>L</td>
+            <td>M</td>
+        </tr>
+        <tr class="5">
+            <td>N</td>
+            <td colspan="4">O</td>
+        </tr>
+    </table>
+    <h3>Problem 2.</h3>
+    <div>
+        <p><label for="memberTextBox">Member name: </label> <input type="text" id="memberTextBox" /><b>*req</b></p>
+        <p><label for="emailTextBox">E-mail address: </label> <input type="text" id="emailTextBox" /><b>*req</b></p>
+        <p><label for="schoolTextBox">School: </label> <input type="text" id="schoolTextBox" /><b>*req</b></p>
+        <p><input type="image" src="imagini/SubmitButton.png" value="Submit" alt="Submits" style="width:90px; height:30px;" /></p>
+    </div>
+    <h3>Problem 3.</h3>
+    <div>
+        <form>
+            <table cellspacing="1" style="text-align:center; border:groove" border="0">
+                <tr>
+                    <td colspan="4">
+                        <input type="text" style="text-align:right; width:200px; height:20px;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1" style="width:50px; height:20px" /></td>
+                    <td><input type="button" value="2" style="width:50px; height:20px" /></td>
+                    <td><input type="button" value="3" style="width:50px; height:20px" /></td>
+                    <td><input type="button" value="+" style="width:50px; height:20px" /></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4" style="width:50px; height:20px" /></td>
+                    <td><input type="button" value="5" style="width:50px; height:20px" /></td>
+                    <td><input type="button" value="6" style="width:50px; height:20px" /></td>
+                    <td><input type="button" value="-" style="width:50px; height:20px" /></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="7" style="width:50px; height:20px" /></td>
+                    <td><input type="button" value="8" style="width:50px; height:20px" /></td>
+                    <td><input type="button" value="9" style="width:50px; height:20px" /></td>
+                    <td><input type="button" value="*" style="width:50px; height:20px" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="button" value="0" style="width:100px; height:20px" /></td>
+                    <td><input type="button" value="." style="width:50px; height:20px" /></td>
+                    <td><input type="button" value="/" style="width:50px; height:20px" /></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
