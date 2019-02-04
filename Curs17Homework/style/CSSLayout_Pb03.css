@@ -1,0 +1,39 @@
+﻿body{
+    background-color: #272525;
+    color:#808080;
+    font-family: Garamond;
+}
+#login {
+    background-color: #231f1f;
+    height:50px;
+}
+    #login form {
+        height:45px;
+        padding-left: 30px;
+        padding-top:5px;
+    }
+
+        #login form label {
+            color: white;
+            font-family: Garamond;
+            font-size: 30px;
+            font-weight: bolder;
+        }
+
+        #login form input.buttonGO {
+            background-color: red;
+            border: 1px solid white;
+            border-radius:15px;
+            width:60px;
+            height:30px;
+            font-weight:bolder;
+            color: white;
+        }
+h3 {
+    color: yellow;
+    font-family: Garamond;
+    font-size: 30px;
+}
+p {
+    font-family: Calibri;
+}
