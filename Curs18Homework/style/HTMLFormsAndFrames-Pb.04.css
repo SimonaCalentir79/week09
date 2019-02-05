@@ -1,0 +1,24 @@
+﻿a {
+    color: #363434;
+    text-decoration: none;
+}
+
+button {
+    width: 35px;
+    height: 20px;
+}
+
+table {
+    font-family: Calibri;
+    font-size: 14px;
+    border: 1px solid dimgray;
+}
+
+thead {
+    background-color: lightgray;
+}
+
+tfoot {
+    background-color: lightgray;
+    color: #363434;
+}

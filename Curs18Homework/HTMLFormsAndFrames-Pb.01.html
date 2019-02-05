@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>HTMLFormsAndFrames-Pb.01.Registration form</title>
+    <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />-->
+</head>
+<body>
+    <form>
+            <table border="1" cellspacing="1" cellpadding="10">
+                <tr>
+                    <td style="text-align:right;font-weight:bold;">Last Name</td>
+                    <td colspan="3"><input type="text" value="Nakov" style="color:dimgray" size="30" /></td>
+                </tr>
+                <tr>
+                    <td style="text-align:right;font-weight:bold;">First Name</td>
+                    <td colspan="3"><input type="text" value="Svetlin" style="color:dimgray" size="30" /></td>
+                </tr>
+                <tr>
+                    <td style="text-align:right;font-weight:bold;">Address</td>
+                    <td colspan="3"><textarea name="address" style="color:dimgray" cols="30" rows="3">17 Hristo Botev Str., floor 3, apt .12</textarea></td>
+                </tr>
+                <tr>
+                    <td style="text-align:right;font-weight:bold;">City</td>
+                    <td><input type="text" value="Kaspichan" style="color:dimgray" size="30" /></td>
+                    <td style="text-align:right;font-weight:bold;">State</td>
+                    <td><input type="text" style="color:dimgray" size="30" /></td>
+                </tr>
+                <tr>
+                    <td style="text-align:right;font-weight:bold;">ZIP/Postal Code</td>
+                    <td colspan="3"><input type="text" value="9325" style="color:dimgray" size="30" /></td>
+                </tr>
+                <tr>
+                    <td style="text-align:right;font-weight:bold;">Country</td>
+                    <td colspan="3">
+                        <select name="country">
+                            <option>Romania</option>
+                            <option selected="selected">Bulgaria</option>
+                            <option>Polonia</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:right;font-weight:bold;">Phone (country code,<br /> area code, number)</td>
+                    <td colspan="3">
+                        (+<input type="text" value="359" size="5" style="color:dimgray" />)
+                        <input type="text" value="88" size="5" style="color:dimgray" /> -
+                        <input type="text" value="8334343" size="30" style="color:dimgray" />
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:right;font-weight:bold;">E-mail</td>
+                    <td colspan="3"><input type="email" value="nakov@kaspichan.org" style="color:dimgray" size="30" /></td>
+                </tr>
+                <tr>
+                    <td style="text-align:right;font-weight:bold;">Birth date</td>
+                    <td colspan="3">
+                        Month <input type="month" value="feb" style="color:dimgray" />
+                        Day <input type="number" value="14" min="1" max="31" style="color:dimgray" />
+                        Year (4digit) <input type="number" value="1980" max="2019" style="color:dimgray" />
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:right;font-weight:bold;">Gender</td>
+                    <td colspan="3">
+                        <select>
+                            <option selected="selected">Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:right;font-weight:bold;">Starting date</td>
+                    <td colspan="3">
+                        Spring 2006 <input type="radio" name="gender" value="Spring 2006" />
+                        Summer 2006 <input type="radio" name="gender" value="Summer 2006" />
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:right;font-weight:bold;">Comments/Questions:</td>
+                    <td colspan="3"><textarea name="comments" cols="30" rows="3"></textarea></td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td colspan="4" style="text-align:center;">
+                            <input type="submit" value="Submit" />
+                            <input type="reset" value="Clear This Form" />
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+    </form>
+</body>
+</html>
