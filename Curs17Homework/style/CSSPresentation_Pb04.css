@@ -1,0 +1,80 @@
+﻿main {
+    border: 1px ridge dimgray;
+    width: 445px;
+    margin: 2px;
+    padding: 2px;
+    background-color: #b0e6d8;
+}
+
+section {
+    border-bottom: 1px ridge;
+    margin-bottom: 10px;
+    padding: 1px;
+    height: 50px;
+}
+
+    section p {
+        line-break: normal;
+    }
+
+    section a {
+        text-decoration: none;
+        color: dimgray;
+        font-size: 14px;
+        padding-right: 10px;
+    }
+
+table {
+    border: 1px groove;
+    margin: 1px;
+    padding: 1px;
+}
+
+#text-rezultat {
+    width: 443px;
+    height: 50px;
+}
+
+    #text-rezultat input[type=text] {
+        width: 433px;
+        height: 50px;
+        font-size: 20px;
+        text-align: right;
+        border: none;
+        background-color: #b0e6d8;
+    }
+
+#binar {
+    width: 443px;
+}
+
+    #binar td {
+        width: 48.5px;
+        padding-left: 10px;
+        margin: 0px;
+        color: dimgray;
+        font-size: 14px;
+    }
+
+button {
+    width: 40px;
+    height: 30px;
+    border: 1px ridge gray;
+    background-color: #b0e6d8;
+}
+
+#egal {
+    height: 64px;
+}
+
+#zero {
+    width: 84px;
+}
+
+button:hover {
+    background-color: cornflowerblue;
+}
+
+#opt1, #opt2 {
+    width: 80px;
+}

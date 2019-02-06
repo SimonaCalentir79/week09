@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>CSSPresentation-Pb04.Calculator</title>
+    <link href="style/CSSPresentation_Pb04.css" rel="stylesheet" />
+    <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />-->
+</head>
+<body>
+    <main>
+        <section>
+            <p>Calculator
+            <br/><a href="#">View</a>   <a href="#">Edit</a>   <a href="#">Help</a></p>
+        </section>
+        <table id="text-rezultat">
+            <tr>
+                <td colspan="8"><input type="text" value="8854455" /></td>
+            </tr>
+        </table>
+        <table id="binar">
+            <tr>
+                <td>0000</td>
+                <td>0000</td>
+                <td>0000</td>
+                <td>0000</td>
+                <td>0000</td>
+                <td>0000</td>
+                <td>0000</td>
+                <td>0000</td>
+            </tr>
+            <tr>
+                <td colspan="4">63</td>
+                <td colspan="3">47</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>0000</td>
+                <td>0000</td>
+                <td>1000</td>
+                <td>0111</td>
+                <td>0001</td>
+                <td>1011</td>
+                <td>1011</td>
+                <td>0111</td>
+            </tr>
+            <tr>
+                <td colspan="4">31</td>
+                <td colspan="3">15</td>
+                <td>0</td>
+            </tr>
+        </table>
+        <table id="butoane">
+            <tr>
+                <td rowspan="3">
+                    <table id="opt1">
+                        <tr>
+                            <td><input type="radio" name="opt1" /> Hex</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="opt1" checked="checked" /> Dec</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="opt1" /> Oct</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="opt1" /> Bin</td>
+                        </tr>
+                    </table>
+                </td>
+                <td><button disabled> </button></td>
+                <td><button>Mod</button></td>
+                <td><button disabled>A</button></td>
+                <td><button>MC</button></td>
+                <td><button>MR</button></td>
+                <td><button>MS</button></td>
+                <td><button>M+</button></td>
+                <td><button>M-</button></td>
+            </tr>
+            <tr>
+                <td><button>(</button></td>
+                <td><button>)</button></td>
+                <td><button disabled>B</button></td>
+                <td><button>&#x2190</button></td>
+                <td><button>CE</button></td>
+                <td><button>C</button></td>
+                <td><button>&#x2213</button></td>
+                <td><button>&#x221A</button></td>
+            </tr>
+            <tr>
+                <td><button>RoL</button></td>
+                <td><button>RoR</button></td>
+                <td><button disabled>C</button></td>
+                <td><button>7</button></td>
+                <td><button>8</button></td>
+                <td><button>9</button></td>
+                <td><button>/</button></td>
+                <td><button>%</button></td>
+            </tr>
+            <tr>
+                <td rowspan="3">
+                    <table id="opt2">
+                        <tr>
+                            <td><input type="radio" name="opt2" /> Qword</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="opt2" /> Dword</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="opt2" checked="checked" /> Word</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="opt2" /> Byte</td>
+                        </tr>
+                    </table>
+                </td>
+                <td><button>Or</button></td>
+                <td><button>Xor</button></td>
+                <td><button disabled>D</button></td>
+                <td><button>4</button></td>
+                <td><button>5</button></td>
+                <td><button>6</button></td>
+                <td><button>*</button></td>
+                <td><button>1/x</button></td>
+            </tr>
+            <tr>
+                <td><button>Lsh</button></td>
+                <td><button>Rsh</button></td>
+                <td><button disabled>E</button></td>
+                <td><button>1</button></td>
+                <td><button>2</button></td>
+                <td><button>3</button></td>
+                <td><button>-</button></td>
+                <td rowspan="2"><button id="egal">=</button></td>
+            </tr>
+            <tr>
+                <td><button>Not</button></td>
+                <td><button>And</button></td>
+                <td><button disabled>F</button></td>
+                <td colspan="2"><button id="zero">0</button></td>
+                <td><button>.</button></td>
+                <td><button>+</button></td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
