@@ -1,0 +1,41 @@
+﻿#main {
+    background-color: lightgray;
+    margin: 2px;
+    padding: 10px;
+    border: groove;
+    border-radius: 15px;
+}
+
+header {
+    text-align: center;
+}
+
+.casete {
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    width: 500px;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+    border-radius:10px;
+}
+
+#scris {
+    padding: 5px;
+}
+
+#butoane {
+    text-align: right;
+}
+
+button {
+    margin: 2px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    width: 75px;
+}
