@@ -1,0 +1,12 @@
+﻿#tabelimagini {
+    border: 1.5px solid dimgray;
+}
+
+.datelaptop {
+    text-align: center;
+}
+
+thead {
+    text-align: center;
+    font-size: 30px;
+}
